@@ -58,7 +58,7 @@ if (bookingForm) {
                 alert("Maanta waa fasax qaran!");
             } else {
                 Storage.addAppointment(appt);
-                alert("Si guul leh ayaa loo ballamay!");
+                alert("Appointment booked successfully!");
                 bookingForm.reset();
             }
         } catch (err) {
